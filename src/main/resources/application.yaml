@@ -9,6 +9,3 @@ spring:
       server-addr: ${NACOS_SERVER_ADDR:192.168.0.104:8851,192.168.0.104:8850,192.168.0.104:8849}
 server:
   port: 9090
-feign:
-  httpclient:
-    connection-timeout:
